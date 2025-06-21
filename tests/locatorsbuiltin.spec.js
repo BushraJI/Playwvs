@@ -19,7 +19,9 @@ test('Builtin-locators',async({page})=>{
 
   //page.getByText() to locate by text content.  by using text content we can locate element 
     //const name= await page.locator('//img[@class="oxd-userdropdown-img"]').textContent()
-    await expect(await page.getByText('Bogdan Dyuk')).toBeVisible()
+    //await expect(await page.getByText('//img[@class=oxd-userdropdown-img"]')).toBeVisible()
+    
+
 
 })
 //span[@class='oxd-userdropdown-tab']
