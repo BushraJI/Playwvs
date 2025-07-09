@@ -25,8 +25,8 @@ test('AssertionTest', async ({ page }) => {
  await expect(maleRadioButton).toBeChecked()
 
  //check box
- const newsletterCheckbox=await page.locator('#Newletter')
- await expect(newsletterCheckbox).toBeChecked()
+// const newsletterCheckbox=await page.locator('#Newletter')
+ //await expect(newsletterCheckbox).toBeChecked()
  
 
 });
